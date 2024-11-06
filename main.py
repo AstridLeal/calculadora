@@ -4,7 +4,7 @@ import multiplicacion
 import dividir
 import suma_avanzada
 
-def mostrar_menu():
+def mostrar_menu(): 
     print("Selecciona una opción:")
     print("1. Sumar dos números")
     print("2. Restar dos números")
@@ -12,7 +12,7 @@ def mostrar_menu():
     print("4. Dividir dos números")
     print("5. Sumar una lista de números")
 
-while True:
+while True: # Ciclo infinito para que el programa no termine
     mostrar_menu()
     opcion = input("Ingresa una opción (1/2/3/4/5): ")
 
